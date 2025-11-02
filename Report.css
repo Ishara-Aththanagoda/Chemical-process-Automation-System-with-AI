@@ -1,0 +1,147 @@
+/* General container */
+.report-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Title */
+.report-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Report image */
+.report-image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.report-image {
+    width: 100%;
+    max-width: 750px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Actions (buttons) */
+.report-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.download-button,
+.print-button,
+.back-button,
+.send-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0078D4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 140px;
+}
+
+.download-button:hover,
+.print-button:hover,
+.back-button:hover,
+.send-button:hover {
+    background-color: #005fa3;
+}
+
+/* SMS section */
+.sms-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.phone-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    width: 220px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.phone-input:focus {
+    border-color: #0078D4;
+}
+
+/* Messages */
+.success-msg {
+    color: #28a745;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.error-msg {
+    color: #dc3545;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/* Loading & Error states */
+.loading,
+.error {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    color: #6c757d;
+}
+
+.loading h2,
+.error h2 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #333;
+}
+
+.back-button {
+    background-color: #6c757d;
+}
+
+.back-button:hover {
+    background-color: #495057;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .report-container {
+        padding: 20px;
+    }
+
+    .report-title {
+        font-size: 24px;
+    }
+
+    .phone-input {
+        width: 100%;
+    }
+
+    .report-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

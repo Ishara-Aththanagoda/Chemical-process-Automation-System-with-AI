@@ -1,0 +1,97 @@
+.login-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 26px rgba(0, 0, 0, 0.15);
+  background: #fff;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.toggle-buttons button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggle-buttons .active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: stretch;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  padding: 8px;
+  background: transparent;
+  outline: none;
+}
+
+.mic {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.login-button {
+  padding: 14px 28px;
+  background: linear-gradient(to right, #1e88e5, #42a5f5);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(33, 150, 243, 0.3);
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1976d2;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.qr-scan-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}

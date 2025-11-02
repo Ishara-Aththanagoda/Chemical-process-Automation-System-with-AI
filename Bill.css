@@ -1,0 +1,68 @@
+.bill-wrapper {
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f7fb;
+}
+
+.bill-container {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bill-header {
+    text-align: center;
+    color: #0f4c75;
+    margin-bottom: 20px;
+}
+
+.bill-info p {
+    margin: 5px 0;
+}
+
+.bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.bill-table th,
+.bill-table td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.bill-table th {
+    background-color: #0f4c75;
+    color: white;
+}
+
+.bill-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.print-btn {
+    background-color: #1b262c;
+}
+
+.pdf-btn {
+    background-color: #3282b8;
+}
+
+.signature-line {
+    margin-top: 20px;
+    font-style: italic;
+}

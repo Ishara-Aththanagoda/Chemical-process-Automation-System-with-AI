@@ -1,0 +1,70 @@
+/* Cal.css */
+.calculator-container {
+    max-width: 340px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.display {
+    background-color: #222;
+    color: #0f0;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    min-height: 70px;
+}
+
+.display .input {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.display .result {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.btn {
+    background: #fff;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.4rem;
+    color: #0c0101;
+    padding: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background-color: #0c0101;
+    transform: scale(0.95);
+}
+
+/* Highlight operators */
+.btn:nth-child(4n) {
+    background: #f2f2f2;
+    color: #0d0d0e;
+    font-weight: bold;
+}
+
+.btn:nth-child(4n):hover {
+    background-color: #e0f0ff;
+}

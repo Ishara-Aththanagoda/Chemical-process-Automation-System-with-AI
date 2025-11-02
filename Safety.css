@@ -1,0 +1,75 @@
+/* Safety.css */
+
+.safety-container {
+    max-width: 1150px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #1b1b1b;
+}
+
+.safety-container h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #0f0f0f;
+    margin-bottom: 20px;
+}
+
+.safety-intro {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: #0e0149;
+    line-height: 1.7;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.safety-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.safety-card {
+    background: #fff8f5;
+    border-left: 6px solid #e64a19;
+    border-radius: 15px;
+    padding: 25px 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.safety-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.safety-card .emoji {
+    font-size: 2.6rem;
+    margin-bottom: 12px;
+}
+
+.safety-card h2 {
+    font-size: 1.5rem;
+    color: #bf360c;
+    margin-bottom: 10px;
+}
+
+.safety-card p {
+    font-size: 1.05rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.safety-card .extra-tip {
+    background-color: #fbe9e7;
+    padding: 10px 14px;
+    border-left: 4px solid #ff7043;
+    border-radius: 8px;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #c62828;
+}

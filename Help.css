@@ -1,0 +1,106 @@
+/* Help.css */
+
+.help-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+    color: #070000;
+}
+
+.help-container h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #0c0000;
+}
+
+.help-slide {
+    transition: all 0.8s ease-in-out;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(135deg, #ffffff, #f6f9fc);
+    position: relative;
+    animation: fadeIn 1s ease-in-out;
+    min-height: 300px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.emoji {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+}
+
+.help-slide h2 {
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.help-slide p {
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    color: #0c0c0c;
+}
+
+.help-slide .extra {
+    font-size: 1rem;
+    color: #040353;
+    background: #eef2f7;
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+    transition: all 0.4s ease;
+}
+
+.slide-indicator {
+    margin-top: 20px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    display: inline-block;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #555;
+}
+
+/* Optional themed accents */
+.help-card.knowledge {
+    border-left: 6px solid #0077cc;
+}
+
+.help-card.safety {
+    border-left: 6px solid #e69500;
+}
+
+.help-card.confidence {
+    border-left: 6px solid #4caf50;
+}
+
+.help-card.relax {
+    border-left: 6px solid #9c27b0;
+}

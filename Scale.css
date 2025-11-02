@@ -1,0 +1,27 @@
+.scale-container {
+    background: #f5f5f5;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.scale-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.scale-weight {
+    font-size: 72px;
+    font-weight: bold;
+    color: #16a34a;
+}
+
+.unit {
+    font-size: 32px;
+    color: #555;
+}

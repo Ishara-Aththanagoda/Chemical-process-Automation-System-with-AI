@@ -1,0 +1,73 @@
+/* Health.css */
+
+.health-container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+    color: #110101;
+}
+
+.health-container h1 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+    color: #0f0f0f;
+}
+
+.health-container .intro {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #110101;
+    line-height: 1.6;
+}
+
+.wellness-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 10px;
+}
+
+.health-card {
+    background: #f8fcf9;
+    border-left: 6px solid #81c784;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.health-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.health-card .emoji {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.health-card h2 {
+    font-size: 1.4rem;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.health-card p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.health-card .tip {
+    font-size: 0.95rem;
+    background: #e8f5e9;
+    border-left: 4px solid #66bb6a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: #2e7d32;
+    font-style: italic;
+}

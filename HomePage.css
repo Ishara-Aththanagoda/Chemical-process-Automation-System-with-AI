@@ -1,0 +1,148 @@
+.homepage-container {
+  text-align: center;
+  background: linear-gradient(to right, #b8b8ee, #6d6de9, #a2a2b3, #6d6de9, #b8b8ee);
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-left {
+  height: 80px;
+  margin-left: 10px;
+}
+
+.logo-right {
+  height: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.company-name {
+  font-size: 2.5rem;
+  color: #08011f;
+}
+
+.tagline1 {
+  font-size: 1.5rem;
+  color: #161615;
+}
+
+.tagline2 {
+  font-size: 1rem;
+  color: #0d0d0e;
+  margin-bottom: 20px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.homepage-button {
+  padding: 20px 40px;
+  font-size: 1rem;
+  text-decoration: none;
+  background: linear-gradient(to right, #7f9493, #a593e6, #5b50f1);
+  color: white;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.homepage-button:hover {
+  background-color: #1abc9c;
+}
+
+.voice-hint {
+  margin-top: 20px;
+  color: #0e0d0d;
+  font-style: italic;
+}
+
+.homepage-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #b8b8ee, #6d6de9, #6c6cf3, #6d6de9, #b8b8ee, #2929ec);
+  padding: 60px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin: -450px auto 0 auto;
+}
+
+.homepage-content:hover {
+  transform: scale(1.01);
+}
+
+
+.image-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 20px;
+  padding: 20px 10px;
+  background-color: #f2f2f2;
+  border-right: 2px solid #ddd;
+}
+
+.image-sidebar img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.image-sidebar img:hover {
+  transform: scale(1.3);
+}
+
+.image-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 10px;
+  background: linear-gradient(to right, #6d6de9, #6c6cf3, #6d6de9, #8787f3);
+  border-right: 2px solid #ccc;
+  width: 80px;
+  min-width: 80px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.scrolling-banner {
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: linear-gradient(to right, #b8b8ee, #6d6de9, #6c6cf3, #6d6de9, #b8b8ee, #2929ec);
+  color: #070236;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 5px 0;
+  border-bottom: 2px solid #f0c000;
+  position: relative;
+}
+
+.scrolling-banner p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 45s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
